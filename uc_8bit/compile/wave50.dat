@@ -1,0 +1,15 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#39#std_logic_vector((ADDR_LEN-1) downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 17 1 4 ADDR
+$SC 1-13/4
+I 3 "a#39#std_logic_vector((N_OF_BIT-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 50 3 8 DATA_IN
+$SC 18-46/4
+$IN +5 2 CLK
+$IN +4 2 WE
+$IN +4 2 CLR
+$BUS OUT 95 3 8 DATA_OUT
+$SC 63-91/4
+$ENDWAVE

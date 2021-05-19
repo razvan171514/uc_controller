@@ -1,0 +1,12 @@
+[Version]
+Version=6.3
+[Designs]
+uc_8bit=.\uc_8bit\uc_8bit.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+uc_8bit=1

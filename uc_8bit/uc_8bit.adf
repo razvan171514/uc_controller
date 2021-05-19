@@ -1,0 +1,82 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=uc_8bit
+
+[Library]
+uc_8bit=.\uc_8bit.lib
+
+[$LibMap$]
+uc_8bit=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=uc|arch_uc|0      
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ram.vhd=-1
+/ram_testbench.vhd=-1
+/counter.vhd=-1
+/counter_testbench.vhd=-1
+/load_register.vhd=-1
+/load_register_testbench.vhd=-1
+/universal_shift_register.vhd=-1
+/universal_shift_register_testbench.vhd=-1
+/stack.vhd=-1
+/alu.vhd=-1
+/cpu_register.vhd=-1
+/slu.vhd=-1
+/mux_16_to_1_1bit.vhd=-1
+/universal_shift_register_with_cry.vhd=-1
+/program_memory.vhd=-1
+/sync_alu.vhd=-1
+/eu.vhd=-1
+/bcd_7sd.vhd=-1
+/instr_rom.vhd=-1
+/cu.vhd=-1
+/dcd.vhd=-1
+/uc.vhd=-1
+
+[Files.Data]
+.\src\ram.vhd=VHDL Source Code
+.\src\ram_testbench.vhd=VHDL Source Code
+.\src\counter.vhd=VHDL Source Code
+.\src\counter_testbench.vhd=VHDL Source Code
+.\src\load_register.vhd=VHDL Source Code
+.\src\load_register_testbench.vhd=VHDL Source Code
+.\src\universal_shift_register.vhd=VHDL Source Code
+.\src\universal_shift_register_testbench.vhd=VHDL Source Code
+.\src\stack.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\cpu_register.vhd=VHDL Source Code
+.\src\slu.vhd=VHDL Source Code
+.\src\mux_16_to_1_1bit.vhd=VHDL Source Code
+.\src\universal_shift_register_with_cry.vhd=VHDL Source Code
+.\src\program_memory.vhd=VHDL Source Code
+.\src\sync_alu.vhd=VHDL Source Code
+.\src\eu.vhd=VHDL Source Code
+.\src\bcd_7sd.vhd=VHDL Source Code
+.\src\instr_rom.vhd=VHDL Source Code
+.\src\cu.vhd=VHDL Source Code
+.\src\dcd.vhd=VHDL Source Code
+.\src\uc.vhd=VHDL Source Code
+

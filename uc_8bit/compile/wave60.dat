@@ -1,0 +1,19 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#31#UNSIGNED((N_OF_BIT-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 A
+$SC 1-29/4
+$BUS IN 66 1 8 B
+$SC 34-62/4
+I 3 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 79 3 3 OP_SEL
+$SC 67-+8/4
+$BUS OUT +37 1 8 Y
+$SC 80-+28/4
+$OUT +5 2 C_F
+$OUT +4 2 O_F
+$OUT +4 2 P_F
+$OUT +4 2 Z_F
+$IN +4 2 CY
+$ENDWAVE

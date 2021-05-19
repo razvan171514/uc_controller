@@ -1,0 +1,34 @@
+elbread.dll ver. 1.0.5.365 Tue May 18 19:36:25 2021
+
+
+-------------------------------------------------------------------------------------
+Entity                             | Architecture                           | Library
+-------------------------------------------------------------------------------------
+uc                                 | arch_uc                                | uc_8bit
+cu                                 | arch_cu                                | uc_8bit
+eu                                 | arch_eu                                | uc_8bit
+counter                            | arch_counter                           | uc_8bit
+load_register                      | arch_load_register                     | uc_8bit
+program_memory                     | arch_program_memory                    | uc_8bit
+dcd                                | arch_dcd                               | uc_8bit
+instr_rom                          | arch_instr_rom                         | uc_8bit
+ram                                | arch_ram                               | uc_8bit
+cpu_register                       | arch_cpu_register                      | uc_8bit
+slu                                | arch_slu                               | uc_8bit
+sync_alu                           | arch_sync_alu                          | uc_8bit
+stack                              | arch_stack                             | uc_8bit
+mux_16_to_1_1bit                   | arch_mux_16_to_1_1bit                  | uc_8bit
+universal_shift_register_with_cry  | arch_universal_shift_register_with_cry | uc_8bit
+alu                                | arch_alu                               | uc_8bit
+bcd_7sd                            | arch_bcd_7sd                           | uc_8bit
+-------------------------------------------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+numeric_std         | ieee
+std_logic_unsigned  | ieee
+-----------------------------

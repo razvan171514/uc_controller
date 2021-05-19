@@ -1,0 +1,27 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#29#std_logic_vector(16 downto 0)1 ricd16 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 69 1 17 CONTROLS
+$SC 1-65/4
+I 3 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +37 3 8 DATA_INPUT
+$SC 70-98/4
+I 4 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 4 4 ADDRESS
+$SC 103-+12/4
+$IN +5 2 CLK
+$IN +4 2 PROG
+$IN +4 2 RST
+$BUS IN +72 1 17 INSTRUCTION_IN
+$SC 132-+64/4
+$BUS OUT +21 4 4 PORT_ID
+$SC 201-+12/4
+$OUT +5 2 O_F
+$OUT +4 2 P_F
+$OUT +4 2 Z_F
+$INOUT +4 2 C_F
+I 5 "a#29#std_logic_vector(13 downto 0)1 ricd13 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +60 5 14 OUTPUT
+$SC 234-+52/4
+$ENDWAVE
